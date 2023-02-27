@@ -1,0 +1,17 @@
+$h1-color: red;
+$bg-dark: grey;
+
+body {
+	background-color: $bg-dark;
+}
+
+header {
+	h1 {
+		color: $h1-color;
+		background-color: green;
+
+		em {
+			color: $bg-dark;
+		}
+	}
+}
